@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gray-100">
         <h1 class="text-2xl p-4">Superagent</h1>
-        <ul class="flex flex-col lg:flex-row items-center justify-center space-x-4">
+        <ul class="flex flex-col lg:flex-row items-center justify-center space-x-4 my-2">
             <li>
                 <a href="#">Privacy Policy</a>
             </li>
