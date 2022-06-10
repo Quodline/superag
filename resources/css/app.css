@@ -10,3 +10,12 @@ body {
     @apply text-2xl text-gray-700 mx-4 my-8 p-4;
     border-left: 30px dotted rgb(55, 65, 81);
 }
+
+.btn-outline {
+    @apply bg-transparent hover:bg-blue-900 text-blue-900 font-semibold hover:text-white py-2 px-4 border
+    border-blue-900 hover:border-transparent rounded;
+}
+
+.card {
+    @apply p-4 shadow-sm rounded-lg bg-white;
+}

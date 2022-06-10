@@ -1,11 +1,11 @@
 <template>
-    <div class="max-w-xs m-4 overflow-hidden rounded-lg shadow-lg bg-white">
+    <a :href="`/products/${data.id}`" class="block w-96 m-4 overflow-hidden rounded-lg shadow-lg bg-white">
         <img :alt="data.description" :src="data.thumb" class="object-cover w-full h-48"/>
         <div class="px-6 py-4">
             <h4 class="mb-3 text-xl font-semibold tracking-tight text-gray-800">{{ displayCost }}</h4>
             <p class="leading-normal text-gray-700">{{ data.description }}</p>
         </div>
-    </div>
+    </a>
 </template>
 
 <script>

@@ -11,5 +11,7 @@ export const demoProducts = [{
 },];
 
 export const formatter = new Intl.NumberFormat('en-US', {
-    style: 'currency', currency: 'NGN',
+    style: 'currency',
+    currency: 'NGN',
+    maximumFractionDigits: 0,
 });
